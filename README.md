@@ -12,7 +12,7 @@ The script automatically opens a GitHub profile using Playwright, extracts key p
 
 Profile used for scraping:
 
-https://github.com/shantanujain18
+https://github.com/ManthanS2003
 
 ---
 
@@ -21,7 +21,7 @@ https://github.com/shantanujain18
 The script collects the following information from the profile page:
 
 * Username
-* Name (if available)
+* Name
 * Bio
 * Followers count
 * Following count
@@ -75,12 +75,12 @@ The script will scrape the GitHub profile and store the data in the Supabase tab
 ```text
 Scraped Data:
 {
- 'username': 'Shantanujain18',
- 'name': 'Not Available',
- 'bio': 'Learning to build full-stack websites using Django',
- 'followers': 2,
- 'following': 3,
- 'repositories': 25
+ 'username': 'ManthanS2003',
+ 'name': 'Manthan Surkar',
+ 'bio': 'Not Available',
+ 'followers': 0,
+ 'following': 1,
+ 'repositories': 24
 }
 ```
 
